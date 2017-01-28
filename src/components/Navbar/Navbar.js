@@ -16,12 +16,12 @@ class NavbarContainer extends Component {
 		        <span className="icon-bar"></span>
 		        <span className="icon-bar"></span>
 		      </button>
-		      <a className="brand-font navbar-brand" href="#">Voxxy</a>
+		      <a className="brand-font navbar-brand" href="#">Voxxy</a><small className="small text-muted brand-slogan"> voice is our speciality</small>
 		    </div>
 
 
 		    <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-		      <ul className="nav navbar-nav">
+		      <ul className="nav navbar-nav navbar-right">
 		        <li className="active"><a href="#">About<span className="sr-only">(current)</span></a></li>
 		        <li><a href="#">Blog</a></li>
 		        <li><a href="#">Podcasts</a></li>
@@ -39,7 +39,7 @@ class NavbarContainer extends Component {
 		          </ul>
 		        </li>
 		      </ul>
-		      <ul className="nav navbar-nav navbar-right">
+		      {/*<ul className="nav navbar-nav navbar-right">
 		        <li><a href="#">Link</a></li>
 		        <li className="dropdown">
 		          <a href="#" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span className="caret"></span></a>
@@ -51,7 +51,7 @@ class NavbarContainer extends Component {
 		            <li><a href="#">Separated link</a></li>
 		          </ul>
 		        </li>
-		      </ul>
+		      </ul>*/}
 		    </div>
 		  </div>
 		</nav>

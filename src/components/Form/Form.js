@@ -7,29 +7,34 @@ class Form extends Component {
     return (
         <div id="contact-form" className="container">
         <div className="row">
+        <div className="col-sm-6">
+            <h2>Hey there, contact us</h2>
+            <p>Sometimes a plowed air hocky table hibernates, but an annoying Lone Star always
+             buries a miserly Corona Extra! Most people believe that a stein around some Pilsner reaches an understanding with the polar 
+             bear beer, but they need to remember how unwisely the Avery IPA of a tornado brew laughs out loud. </p>
+            <p>A false Wolverine Beer dies, or a Wolverine Beer around 
+             a colt 45 avoids contact with the corona light about the Home brew. The rattlesnake beyond a Busch is a big fan of a lager.</p>
+
+        </div>
         <div className="col-sm-6 well">
             <form className="form-horizontal">
                 <fieldset>
                     <legend>Contact Us</legend>
+                    
+                    <div className="form-group">
+                        <label htmlFor="inputPassword" className="col-lg-2 control-label">Name</label>
+                        <div className="col-lg-10">
+                            <input type="text" className="form-control" id="inputName" placeholder="Name"></input>
+                        </div>
+                    </div>
                     <div className="form-group">
                         <label htmlFor="inputEmail" className="col-lg-2 control-label">Email</label>
                         <div className="col-lg-10">
-                            <input type="text" className="form-control" id="inputEmail" placeholder="Email"></input>
+                            <input type="email" className="form-control" id="inputEmail" placeholder="Email"></input>
                         </div>
                     </div>
                     <div className="form-group">
-                        <label htmlFor="inputPassword" className="col-lg-2 control-label">Password</label>
-                        <div className="col-lg-10">
-                            <input type="password" className="form-control" id="inputPassword" placeholder="Password"></input>
-                            <div className="checkbox">
-                                <label>
-                                    <input type="checkbox"/> Checkbox
-                                </label>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="form-group">
-                        <label htmlFor="textArea" className="col-lg-2 control-label">Textarea</label>
+                        <label htmlFor="textArea" className="col-lg-2 control-label">Message</label>
                         <div className="col-lg-10">
                             <textarea className="form-control" rows="3" id="textArea"></textarea>
                             <span className="help-block">A longer block of help text that breaks onto a new line and may extend beyond one line.</span>
@@ -52,29 +57,11 @@ class Form extends Component {
                             </div>
                         </div>
                     </div>
+
                     <div className="form-group">
-                        <label htmlFor="select" className="col-lg-2 control-label">Selects</label>
-                        <div className="col-lg-10">
-                            <select className="form-control" id="select">
-                                <option>1</option>
-                                <option>2</option>
-                                <option>3</option>
-                                <option>4</option>
-                                <option>5</option>
-                            </select>
-                            <br></br>
-                            <select multiple="" className="htmlForm-control">
-                                <option>1</option>
-                                <option>2</option>
-                                <option>3</option>
-                                <option>4</option>
-                                <option>5</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div className="form-group">
-                        <div className="col-lg-10 col-lg-offset-2">
+                        <div className="col-md-10 col-md-offset-2">
                             <button className="btn btn-default">Cancel</button>
+                            <span> </span>
                             <button type="submit" className="btn btn-primary">Submit</button>
                         </div>
                     </div>

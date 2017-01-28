@@ -22,7 +22,7 @@ body {
 }
 
 .landing__sectionGrey {
-	padding: 20px;
+	padding: 50px 20px;
 	width: 100%;
 	min-height: 300px;
 	background-color: #e7e7e7;
@@ -46,17 +46,23 @@ body {
 	text-shadow: .5px .5px grey;
 }
 
+.font-weight-bold {
+		font-weight: 800;
+}
+
 .brand-font {
 	font-family: 'Damion', cursive;
 	font-size: 40px;
 	padding: 5px 15px;
 }
 
-.zero-margin-bottom {
-	margin-bottom: 0px;
-	padding-right: 15px;
+.brand-slogan {
+	font-family: 'Damion', cursive;
+	position: absolute;
+	top:25px;
 }
 
-.remove-padding-navbar {
+.zero-margin-bottom {
+	margin-bottom: 0px;
 	padding-right: 15px;
 }

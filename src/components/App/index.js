@@ -28,8 +28,8 @@ class App extends Component {
           <div className="row">
           <div className="col-md-8 col-md-offset-2">
           <div className="jumbotron text-center color-white">
-          <h1>Hello we are Voxxy!</h1>
-          <h4>We're a premier voice design agency. We specialize in building <span className="text-success">voice applications for Amazon Alexa devices.</span></h4>
+          <h1 className="font-weight-bold">Hello, we are Voxxy!</h1>
+          <h4><p><span className="text-success font-weight-bold">We're a premier voice design agency. We specialize in building voice applications for Amazon Alexa enabled devices.</span></p></h4>
           <p><a className="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
           </div>
           </div>
@@ -39,37 +39,50 @@ class App extends Component {
         </div>
         <div className="landing__sectionGrey">
           <div className="container">
+            <h2>From our blog</h2>
             <div className="row">
               <div className="col-sm-4">
-                <div className="panel panel-default">
+                <div className="panel panel-primary">
                   <div className="panel-heading">
                       <h3 className="panel-title">Panel info</h3>
                   </div>
                   <div className="panel-body">
-                      Panel content
-                      Panel content
-                      Panel content
-                      Panel content
+                  <p>
+                    A greasy Heineken
+                    A Pilsner Urquell starts reminiscing about a lost buzz, but a mean-spirited grizzly beer dances with a paternal Amarillo Pale Ale. An ice house around a Keystone is financial. 
+                    The lover for a Pilsner ceases to exist, or a most difficult Pilsner Urquell unwisely gives lectures on morality to the hammered Ipswich Ale.
+                  </p>
+                  <button className="btn btn-success">Check it out</button>
                   </div>
                 </div>
               </div>
               <div className="col-sm-4">
-                <div className="panel panel-default">
+                <div className="panel panel-primary">
                   <div className="panel-heading">
                       <h3 className="panel-title">Panel info</h3>
                   </div>
                   <div className="panel-body">
-                      Panel content
+                      <p>
+                        A greasy Heineken
+                        A Pilsner Urquell starts reminiscing about a lost buzz, but a mean-spirited grizzly beer dances with a paternal Amarillo Pale Ale. An ice house around a Keystone is financial. 
+                        The lover for a Pilsner ceases to exist, or a most difficult Pilsner Urquell unwisely gives lectures on morality to the hammered Ipswich Ale.
+                      </p>
+                      <button className="btn btn-success">Check it out</button>
                   </div>
                 </div>
               </div>
               <div className="col-sm-4">
-                <div className="panel panel-default">
+                <div className="panel panel-primary">
                   <div className="panel-heading">
                       <h3 className="panel-title">Panel info</h3>
                   </div>
                   <div className="panel-body">
-                      Panel content
+                      <p>
+                        A greasy Heineken
+                        A Pilsner Urquell starts reminiscing about a lost buzz, but a mean-spirited grizzly beer dances with a paternal Amarillo Pale Ale. An ice house around a Keystone is financial. 
+                        The lover for a Pilsner ceases to exist, or a most difficult Pilsner Urquell unwisely gives lectures on morality to the hammered Ipswich Ale.
+                      </p>
+                      <button className="btn btn-success">Check it out</button>
                   </div>
                 </div>
               </div>

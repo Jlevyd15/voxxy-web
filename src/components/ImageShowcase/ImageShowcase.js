@@ -14,7 +14,7 @@ class ImageShowcase extends Component {
             <div className="container-fluid">
                 <div className="row">
                     <div className="col-md-12 color-white">
-                        <h3>Our Latest Projects</h3>
+                        <h3>Latest Projects</h3>
                     </div>
                 </div>
                 <div className="row">
